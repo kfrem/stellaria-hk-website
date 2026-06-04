@@ -14,7 +14,7 @@ const translations = {
     aboutEyebrow: "Who we are",
     aboutTitle: "A Hong Kong platform for structured commodity procurement.",
     aboutLead:
-      '<span class="inline-logo"><img src="assets/stellaria-logo.png" alt="Stellaria" /></span> works across international supply channels to support demand for refined petroleum products, crude oil, metals and related resources entering the Mainland China market.',
+      "Stellaria works across international supply channels to support demand for refined petroleum products, crude oil, metals and related resources entering the Mainland China market.",
     aboutDetail:
       "Our commercial role is to connect credible supply, qualified buyers, documentation discipline, shipping coordination and bankable transaction procedures.",
     metricEntities: "state-related demand relationships",
@@ -28,7 +28,7 @@ const translations = {
     oilEyebrow: "Oil and petroleum products",
     oilTitle: "Reliable access to refined product opportunities.",
     oilText:
-      '<span class="inline-logo"><img src="assets/stellaria-logo.png" alt="Stellaria" /></span> can review offers and procurement requirements for petroleum products where specification, origin, procedure and delivery route are transparent.',
+      "Stellaria can review offers and procurement requirements for petroleum products where specification, origin, procedure and delivery route are transparent.",
     prodJet:
       "Aviation turbine fuel for qualified airport, airline and state-linked procurement demand.",
     prodEn590:
@@ -44,7 +44,7 @@ const translations = {
       "Liquefied natural gas opportunities linked to credible sellers and structured offtake demand.",
     prodCrudeTitle: "Crude Oil",
     prodCrude:
-      "Crude oil interest including Basrah Light and Basrah Medium allocation procedures.",
+      "Crude oil opportunities for qualified refinery, industrial and institutional procurement requirements.",
     metalsEyebrow: "Metals and minerals",
     metalsTitle: "Industrial inputs for a manufacturing economy.",
     metalsText:
@@ -75,7 +75,7 @@ const translations = {
     partnersEyebrow: "Partner with Stellaria",
     partnersTitle: "We welcome serious supply and procurement discussions.",
     partnersText:
-      'Suppliers, mandate holders, refinery representatives and institutional buyers can contact <span class="inline-logo"><img src="assets/stellaria-logo.png" alt="Stellaria" /></span> for structured commodity discussions.',
+      "Suppliers, mandate holders, refinery representatives and institutional buyers can contact Stellaria for structured commodity discussions.",
     networkEyebrow: "Network",
     networkTitle: "Sister and partner companies.",
     networkText:
@@ -129,7 +129,7 @@ const translations = {
     aboutEyebrow: "关于我们",
     aboutTitle: "立足香港的结构化大宗商品采购平台。",
     aboutLead:
-      '<span class="inline-logo"><img src="assets/stellaria-logo.png" alt="Stellaria" /></span> 通过国际供应渠道，支持成品油、原油、金属及相关资源进入中国内地市场的采购需求。',
+      "Stellaria 通过国际供应渠道，支持成品油、原油、金属及相关资源进入中国内地市场的采购需求。",
     aboutDetail:
       "我们的商业角色是连接可信供应、合格买方、严谨文件、航运协调及具备银行可执行性的交易流程。",
     metricEntities: "国家相关需求关系",
@@ -143,7 +143,7 @@ const translations = {
     oilEyebrow: "石油及石油产品",
     oilTitle: "连接可信的成品油供应机会。",
     oilText:
-      '当产品规格、来源、流程及交付路线清晰时，<span class="inline-logo"><img src="assets/stellaria-logo.png" alt="Stellaria" /></span> 可审阅石油产品报价及采购需求。',
+      "当产品规格、来源、流程及交付路线清晰时，Stellaria 可审阅石油产品报价及采购需求。",
     prodJet:
       "面向合格机场、航空公司及国家相关采购需求的航空涡轮燃料。",
     prodEn590:
@@ -159,7 +159,7 @@ const translations = {
       "连接可信卖方及结构化承购需求的液化天然气机会。",
     prodCrudeTitle: "原油",
     prodCrude:
-      "原油采购兴趣包括 Basrah Light 及 Basrah Medium 配置流程。",
+      "面向合格炼厂、工业用户及机构采购需求的原油机会。",
     metalsEyebrow: "金属与矿产",
     metalsTitle: "服务制造经济的工业投入品。",
     metalsText:
@@ -190,7 +190,7 @@ const translations = {
     partnersEyebrow: "与 Stellaria 合作",
     partnersTitle: "欢迎严肃的供应与采购洽谈。",
     partnersText:
-      '供应商、授权代表、炼厂代表及机构买方可联系 <span class="inline-logo"><img src="assets/stellaria-logo.png" alt="Stellaria" /></span> 开展结构化大宗商品洽谈。',
+      "供应商、授权代表、炼厂代表及机构买方可联系 Stellaria 开展结构化大宗商品洽谈。",
     networkEyebrow: "网络",
     networkTitle: "姊妹公司与合作伙伴。",
     networkText:
@@ -236,10 +236,6 @@ const setLanguage = (lang) => {
   document.querySelectorAll("[data-i18n]").forEach((node) => {
     const key = node.getAttribute("data-i18n");
     if (translations[lang][key]) node.textContent = translations[lang][key];
-  });
-  document.querySelectorAll("[data-i18n-html]").forEach((node) => {
-    const key = node.getAttribute("data-i18n-html");
-    if (translations[lang][key]) node.innerHTML = translations[lang][key];
   });
   document.querySelectorAll("[data-lang]").forEach((button) => {
     button.classList.toggle("active", button.getAttribute("data-lang") === lang);

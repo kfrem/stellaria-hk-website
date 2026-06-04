@@ -3,3 +3,5 @@ stellaria-desktop.png
 stellaria-mobile.png
 assets/letterhead-page.png
 tmp_files23/
+.local-server.js
+.stellaria-server.pid
