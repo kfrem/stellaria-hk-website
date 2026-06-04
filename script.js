@@ -14,13 +14,13 @@ const translations = {
     aboutEyebrow: "Who we are",
     aboutTitle: "A Hong Kong platform for structured commodity procurement.",
     aboutLead:
-      "Stellaria works across international supply channels to support demand for refined petroleum products, crude oil, metals and related resources entering the Mainland China market.",
+      '<span class="inline-logo"><img src="assets/stellaria-logo.png" alt="Stellaria" /></span> works across international supply channels to support demand for refined petroleum products, crude oil, metals and related resources entering the Mainland China market.',
     aboutDetail:
       "Our commercial role is to connect credible supply, qualified buyers, documentation discipline, shipping coordination and bankable transaction procedures.",
     metricEntities: "state-related demand relationships",
     metricRefineries: "refinery-linked counterparties",
     metricScopeValue: "Multi-market",
-    metricScope: "petroleum, metals and strategic commodities",
+    metricScope: "state and non-state buyers, refineries, petroleum, metals and strategic commodities",
     productsEyebrow: "What we trade",
     productsTitle: "Resources for energy, mobility and industry.",
     productsText:
@@ -28,7 +28,7 @@ const translations = {
     oilEyebrow: "Oil and petroleum products",
     oilTitle: "Reliable access to refined product opportunities.",
     oilText:
-      "Stellaria can review offers and procurement requirements for petroleum products where specification, origin, procedure and delivery route are transparent.",
+      '<span class="inline-logo"><img src="assets/stellaria-logo.png" alt="Stellaria" /></span> can review offers and procurement requirements for petroleum products where specification, origin, procedure and delivery route are transparent.',
     prodJet:
       "Aviation turbine fuel for qualified airport, airline and state-linked procurement demand.",
     prodEn590:
@@ -52,6 +52,9 @@ const translations = {
     logisticsTitle: "Logistics and delivery coordination",
     logisticsText:
       "Transaction planning considers port, shipping, storage, inspection and documentation requirements.",
+    logisticsSupportTitle: "Full logistics support",
+    logisticsSupportText:
+      "Stellaria has access to logistics support for transactions, including vessels, storage coordination and other equipment required for product movement.",
     complianceTitle: "Commercial discipline",
     complianceText:
       "Counterparties are expected to work through clear procedures, verifiable documents and compliant payment instruments.",
@@ -72,7 +75,22 @@ const translations = {
     partnersEyebrow: "Partner with Stellaria",
     partnersTitle: "We welcome serious supply and procurement discussions.",
     partnersText:
-      "Suppliers, mandate holders, refinery representatives and institutional buyers can contact Stellaria for structured commodity discussions.",
+      'Suppliers, mandate holders, refinery representatives and institutional buyers can contact <span class="inline-logo"><img src="assets/stellaria-logo.png" alt="Stellaria" /></span> for structured commodity discussions.',
+    networkEyebrow: "Network",
+    networkTitle: "Sister and partner companies.",
+    networkText:
+      "Stellaria works with sister and partner companies that support procurement, trading, logistics and market engagement.",
+    shinchemText:
+      "Sister company supporting upstream seller supply, negotiation and operational settlement.",
+    armorshieldText:
+      "Sister company supporting vessel, Q88, NOR and logistics documentation for transactions.",
+    bmdText:
+      "Partner company supporting London-based commercial coordination and institutional relationships.",
+    refineriesEyebrow: "Refinery supply channels",
+    refineriesTitle:
+      "Needs-based supply support for refineries and institutions.",
+    refineriesText:
+      "Stellaria supplies state and non-state institutions with petroleum products according to product needs, import procedures, delivery requirements and refinery demand.",
     contactEyebrow: "Contact us",
     contactTitle: "Start a partnership enquiry.",
     contactText:
@@ -111,13 +129,13 @@ const translations = {
     aboutEyebrow: "关于我们",
     aboutTitle: "立足香港的结构化大宗商品采购平台。",
     aboutLead:
-      "Stellaria 通过国际供应渠道，支持成品油、原油、金属及相关资源进入中国内地市场的采购需求。",
+      '<span class="inline-logo"><img src="assets/stellaria-logo.png" alt="Stellaria" /></span> 通过国际供应渠道，支持成品油、原油、金属及相关资源进入中国内地市场的采购需求。',
     aboutDetail:
       "我们的商业角色是连接可信供应、合格买方、严谨文件、航运协调及具备银行可执行性的交易流程。",
     metricEntities: "国家相关需求关系",
     metricRefineries: "炼厂相关交易对手",
     metricScopeValue: "多市场",
-    metricScope: "石油、金属及战略性大宗商品",
+    metricScope: "国家及非国家买方、炼厂、石油、金属及战略性大宗商品",
     productsEyebrow: "贸易品类",
     productsTitle: "服务能源、交通与工业的关键资源。",
     productsText:
@@ -125,7 +143,7 @@ const translations = {
     oilEyebrow: "石油及石油产品",
     oilTitle: "连接可信的成品油供应机会。",
     oilText:
-      "当产品规格、来源、流程及交付路线清晰时，Stellaria 可审阅石油产品报价及采购需求。",
+      '当产品规格、来源、流程及交付路线清晰时，<span class="inline-logo"><img src="assets/stellaria-logo.png" alt="Stellaria" /></span> 可审阅石油产品报价及采购需求。',
     prodJet:
       "面向合格机场、航空公司及国家相关采购需求的航空涡轮燃料。",
     prodEn590:
@@ -149,6 +167,9 @@ const translations = {
     logisticsTitle: "物流与交付协调",
     logisticsText:
       "交易规划会考虑港口、航运、仓储、检验及文件要求。",
+    logisticsSupportTitle: "完整物流支持",
+    logisticsSupportText:
+      "Stellaria 可为交易提供物流支持，包括船舶、仓储协调及产品运输所需的其他设备。",
     complianceTitle: "商业纪律",
     complianceText:
       "交易对手需通过清晰流程、可核验文件及合规支付工具推进合作。",
@@ -169,7 +190,22 @@ const translations = {
     partnersEyebrow: "与 Stellaria 合作",
     partnersTitle: "欢迎严肃的供应与采购洽谈。",
     partnersText:
-      "供应商、授权代表、炼厂代表及机构买方可联系 Stellaria 开展结构化大宗商品洽谈。",
+      '供应商、授权代表、炼厂代表及机构买方可联系 <span class="inline-logo"><img src="assets/stellaria-logo.png" alt="Stellaria" /></span> 开展结构化大宗商品洽谈。',
+    networkEyebrow: "网络",
+    networkTitle: "姊妹公司与合作伙伴。",
+    networkText:
+      "Stellaria 与姊妹公司及合作伙伴协作，支持采购、贸易、物流及市场对接。",
+    shinchemText:
+      "姊妹公司，支持上游卖方供应、谈判及运营结算。",
+    armorshieldText:
+      "姊妹公司，支持船舶、Q88、NOR 及交易物流文件。",
+    bmdText:
+      "合作伙伴公司，支持伦敦商业协调及机构关系。",
+    refineriesEyebrow: "炼厂供应渠道",
+    refineriesTitle:
+      "面向炼厂及机构的按需供应支持。",
+    refineriesText:
+      "Stellaria 根据产品需求、进口流程、交付要求及炼厂需求，向国家及非国家机构供应石油产品。",
     contactEyebrow: "联系我们",
     contactTitle: "提交合作咨询。",
     contactText:
@@ -200,6 +236,10 @@ const setLanguage = (lang) => {
   document.querySelectorAll("[data-i18n]").forEach((node) => {
     const key = node.getAttribute("data-i18n");
     if (translations[lang][key]) node.textContent = translations[lang][key];
+  });
+  document.querySelectorAll("[data-i18n-html]").forEach((node) => {
+    const key = node.getAttribute("data-i18n-html");
+    if (translations[lang][key]) node.innerHTML = translations[lang][key];
   });
   document.querySelectorAll("[data-lang]").forEach((button) => {
     button.classList.toggle("active", button.getAttribute("data-lang") === lang);

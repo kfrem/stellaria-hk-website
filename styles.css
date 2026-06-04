@@ -111,7 +111,7 @@ nav a {
   inset: 0;
   background:
     linear-gradient(90deg, rgba(0,0,0,0.82), rgba(0,0,0,0.5) 45%, rgba(0,0,0,0.16)),
-    url("https://images.unsplash.com/photo-1516937941344-00b4e0337589?auto=format&fit=crop&w=2200&q=85") center/cover;
+    url("assets/photos/hero-refinery.jpg") center/cover;
 }
 
 .hero-copy {
@@ -471,7 +471,52 @@ footer {
 footer img {
   width: 190px;
   margin-bottom: 24px;
-  background: #fff;
+}
+
+.inline-logo {
+  display: inline-flex;
+  width: 5.7em;
+  height: 1.1em;
+  vertical-align: -0.15em;
+  margin-right: 0.14em;
+}
+
+.inline-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.partners-list {
+  background: var(--white);
+}
+
+.network-grid,
+.refinery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.network-grid article,
+.refinery-grid article {
+  padding: 28px;
+  background: #f8f6f1;
+  border-top: 4px solid var(--red);
+}
+
+.network-grid p,
+.refinery-grid p {
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.refineries {
+  background: #ebe5da;
+}
+
+.refinery-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 footer h4 {
@@ -511,7 +556,9 @@ body.lang-zh h2 {
   .product-grid,
   .metric-band,
   .process-steps,
-  footer {
+  footer,
+  .network-grid,
+  .refinery-grid {
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -572,7 +619,9 @@ body.lang-zh h2 {
   .process-steps,
   .markets,
   footer,
-  .contact-form {
+  .contact-form,
+  .network-grid,
+  .refinery-grid {
     grid-template-columns: 1fr;
   }
 
